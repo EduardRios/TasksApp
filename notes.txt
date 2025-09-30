@@ -1,0 +1,28 @@
+General Instructions
+Write a code snippet that solves a moderately complex business logic problem (e.g., recommendation algorithm, payment validator, status manager).
+
+Apply best practices from your ecosystem (SOLID principles, error handling, comment testing, etc.).
+
+Include and justify a concept you recently learned and explain why you liked it.
+
+During the video, show the snippet (either in your editor or by sharing your screen) and answer:
+
+What problem does it solve?
+
+What best practices did you apply?
+
+What new concept did you use and why did it appeal to you?
+
+React Native (TypeScript)
+Use TypeScript; Hooks or Context if applicable.
+
+Lightweight architecture (e.g., Feature → Service → UI).
+
+Recent suggested concepts: useTransition, React Server Components, Zustand, TanStack Query.
+
+Evaluation Criteria
+Clarity of the snippet and its explanation.
+
+Best practices: separation of responsibilities, names, error handling.
+
+Learning: adoption and justification of the new concept.
