@@ -4,14 +4,13 @@ import { create } from 'zustand';
 export interface Task {
   id: string;
   title: string;
-  dueDate: string; // Using string for simplicity
   completed: boolean;
 }
 
 // 2. Define the shape of the store's state and actions
 interface TaskState {
   tasks: Task[];
-  addTask: (task: { title: string; dueDate: string }) => void;
+  addTask: (task: { title: string }) => void;
   toggleTaskStatus: (id: string) => void;
   removeTask: (id: string) => void;
 }
